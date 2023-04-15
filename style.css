@@ -1,0 +1,48 @@
+div{
+    height: 100vh;
+    width: 100vw;
+    background-color: #7fffd5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width: 1440px) {
+    div{
+        background-color: #208b21;
+    }
+    h1{
+        color: White;
+        font-weight: 900;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    div{
+        background-color: #1b203a;
+    }
+    h1{
+        color: White;
+        font-weight: 900;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    div{
+        background-color: #75fbfd;
+    }
+    h1{
+        color: White;
+        font-weight: 900;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    div{
+        background-color: #ca3142;
+    }
+    h1{
+        color: White;
+        font-weight: 900;
+    }
+    
+}
